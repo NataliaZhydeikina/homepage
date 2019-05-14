@@ -11,3 +11,5 @@ open index.html
 # License
 
 MIT License
+
+🧙Hocus-pocus!
