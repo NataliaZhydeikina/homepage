@@ -1,0 +1,28 @@
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+ 
+body {
+  -webkit-animation: fade-in 1.5s linear; /* Safari 4+ */
+  -moz-animation: fade-in 1.5s linear; /* Fx 5+ */
+  -o-animation: fade-in 1.5s linear; /* Opera 12+ */
+  animation: fade-in 1.5s linear; /* IE 10+, Fx 29+ */
+}
+.contacts li a.twitter:hover {
+  color: #00ACEE;
+}
+.contacts li a.instagram:hover {
+  color: #DD2A7B;
+}
+.avatar {
+  background: url("https://s3.eu-central-1.amazonaws.com/bsa19-niverovskyi-git-img/ava.png") no-repeat;
+}
+.avatar:hover {
+  background: url("https://s3.eu-central-1.amazonaws.com/bsa19-niverovskyi-git-img/ava-hover.png") no-repeat;
+}
+.divider.fat {
+  border-top: 0.3571428571428571em solid rgba(10, 10, 10, 1);
+  width: 100%;
+  
+}
